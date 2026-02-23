@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testing Website フィ</title>
+    <title>Happy Birthday My Love</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <audio class="audio" src="https://ftzsr.github.io/foru/fixyou.mp3" autoplay type="audio" loop=""></audio>
+    <audio class="audio" src="https://ftzsr.github.io/foru/fallinginlove.mp3" autoplay type="audio" loop=""></audio>
     <audio class="notif" src="https://dekatutorial.github.io/notif.mp3" type="audio"></audio>
     <div class="background1"></div>
     <div class="background2"></div>
@@ -47,10 +47,10 @@
             </div>
           </div>
           <div class="nama nama1">
-            <p>フィ.</p>
+            <p>Ft.</p>
           </div>
           <div class="isi">
-            <p>Halooo Ila!</p>
+            <p>halooo awaa!</p>
           </div>
         </div>
         <div class="notif notif2">
@@ -63,7 +63,7 @@
             </div>
           </div>
           <div class="nama nama2">
-            <p>フィ.</p>
+            <p>Ft.</p>
           </div>
           <div class="isi">
             <p class="gombal"></p>
@@ -78,16 +78,16 @@
     </div>
     <a href="" class="copyright"> 
       <p class="cr"><i class="material-icons-sharp cr-logo"> copyright </i></p>
-      <p>フィ.</p>
+      <p>Ft.</p>
     </a>
     <script type="text/javascript">
 
       // Custom
-      var pengirim = "フィ.";
+      var pengirim = "Ft.";
       var musik = "";
       var ucapan = "";
-      var background1 = "cat.jpg";
-      var background2 = "cat2.jpg";
+      var background1 = "us.jpg";
+      var background2 = "u.jpg";
 
       // ======================================
       var audio = document.querySelector(".audio"); 
@@ -131,40 +131,40 @@
         async function balas() { 
             if (count == 0){
               var { value: nama } = await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker_mylove.gif", imageHeight: 120, title: "kalo boleh tau, ini siapa ya?", input: "text", confirmButtonText: "Kirim", }); 
-              if (nama.toLowerCase() == "ila") { 
+              if (nama.toLowerCase() == "awa") { 
                 document.querySelector(".hilang2").style.display = "none";
-                txt = "hai " + nama.toLowerCase() + ", "; 
+                txt = "halloo " + nama.toLowerCase() + "! "; 
                 if (ucapan) { 
                     txt += ucapan;
                 }
                 else { 
-                    txt += "gatau si mau nulis apa, lirik lagu rayuan riska aja deh, 🎶 Judul: 'Rayuan Riska' (by Angga x Riska — R&B Vibe) Awalnya cuma iseng aja, download HelloTalk malam itu, Ku tak sangka baru buka, langsung kamu yang muncul di situ, Senyumanmu kayak bintang jatuh"; 
+                    txt += "happy birthday ya sayang 💕\n walau di hari ulang tahunmu kali ini tidak dalam kondisi baik, semoga kamu bisa cepat sembuh dan selalu diberikan kesehatan untuk ke depannya. and please don't worry about anything yaa, kamu bisa cerita tentang apapun ke aku, i'll try to be there for you — not physically, but i will always be your emotional support 🤗. \nmaaf ya kalau sejauh ini aku belum bisa bantu kamu secara langsung, even dalam kondisi kamu yang sekarang ini. maaf juga kalau terkadang aku bikin awa ngerasa sedih, but i want to try to be better. \nonce again, happy birthday my love! I wish you all the best, always ❤️";
                 }
                 typeWriter(); 
                 notif2(); 
               }
               else {
-                  await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "maaf ya, ini bukan untuk kamu, ini cuma buat ila :(", }); 
+                  await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "maaf ya, ini bukan untuk kamu, ini cuma buat awa :(", }); 
                   count += 1
                   balas();
               } 
             }
             else{
-              var { value: nama } = await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker_mylove.gif", imageHeight: 120, title: "ini ila kan?", confirmButtonText: "iya", showCancelButton: true, cancelButtonText: "bukan",}); 
+              var { value: nama } = await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker_mylove.gif", imageHeight: 120, title: "ini awa kan?", confirmButtonText: "iya", showCancelButton: true, cancelButtonText: "bukan",}); 
               if (nama) { 
                 document.querySelector(".hilang2").style.display = "none";
-                txt = "hai " + "ila, "; 
+                txt = "halloo " + "awa! "; 
                 if (ucapan) { 
                     txt += ucapan;
                 }
                 else { 
-                    txt += "gatau si mau nulis apa, lirik lagu rayuan riska aja deh, 🎶 Judul: 'Rayuan Riska' (by Angga x Riska — R&B Vibe) Awalnya cuma iseng aja, download HelloTalk malam itu, Ku tak sangka baru buka, langsung kamu yang muncul di situ, Senyumanmu kayak bintang jatuh"; 
+                    txt += "happy birthday ya sayang 💕\n walau di hari ulang tahunmu kali ini tidak dalam kondisi baik, semoga kamu bisa cepat sembuh dan selalu diberikan kesehatan untuk ke depannya. and please don't worry about anything yaa, kamu bisa cerita tentang apapun ke aku, i'll try to be there for you — not physically, but i will always be your emotional support 🤗. \nmaaf ya kalau sejauh ini aku belum bisa bantu kamu secara langsung, even dalam kondisi kamu yang sekarang ini. maaf juga kalau terkadang aku bikin awa ngerasa sedih, but i want to try to be better. \nonce again, happy birthday my love! I wish you all the best, always ❤️";
                 }
                 typeWriter(); 
                 notif2(); 
               }
               else {
-                  await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "maaf ya, ini bukan untuk kamu, ini cuma buat ila :(", }); 
+                  await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "maaf ya, ini bukan untuk kamu, ini cuma buat awa :(", }); 
                   count += 1
                   balas();
               } 
@@ -173,16 +173,24 @@
 
         function notif2() { 
           notif.play(); 
-          document.querySelector(".notif1").style.display = "none"; document.querySelector(".notif2").style.transform = "translateX(0)"; 
+          document.querySelector(".notif1").style.display = "none"; 
+          document.querySelector(".notif2").style.transform = "translateX(0)"; 
         } 
 
         var i = 0; 
         var speed = 120; 
         function typeWriter() { 
-          if (i < txt.length) { 
-            document.querySelector(".gombal").innerHTML += txt.charAt(i); i++; 
-            setTimeout(typeWriter, speed); 
-          } 
+          if (i < txt.length) {
+
+            if (txt.charAt(i) === "\n") {
+              document.querySelector(".gombal").innerHTML += "<br>";
+            } else {
+              document.querySelector(".gombal").innerHTML += txt.charAt(i);
+            }
+
+            i++;
+            setTimeout(typeWriter, speed);
+          }
 
           else { 
             document.querySelector(".notif2").style.animation = "kelip 1200ms infinite ease"; 
@@ -212,5 +220,4 @@
 
       </script>
   </body>
-
 </html>
