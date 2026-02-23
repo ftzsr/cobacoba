@@ -10,17 +10,30 @@
 
   <img src="cat.jpg" class="bg-photo">
 
+  <div class="overlay"></div>
+
+  <div class="sparkles"></div>
+
   <h2 class="wish-text">Make a wish... and blow the candle 🎂</h2>
 
   <div class="cake">
     <div class="candle">
       <div class="flame" id="flame"></div>
+      <div class="glow"></div>
     </div>
   </div>
 
 </div>
 
 <script src="candle.js"></script>
+
+<script>
+document.addEventListener("candleOff", function () {
+    location.assign("temp/song.html");
+});
+</script>
+
 </body>
 
 </html>
+
