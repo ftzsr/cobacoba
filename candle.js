@@ -34,7 +34,7 @@ function blowCandle() {
   document.getElementById("text").innerHTML = "Your wish will come true ✨";
 
   setTimeout(() => {
-    goToNextPage("temp/flower/flower.html");
+    goToNextPage("temp/song.html");
   }, 2000);
 }
 
@@ -43,4 +43,5 @@ function goToNextPage(url) {
   setTimeout(() => {
     window.location.href = url;
   }, 1200);
+
 }
