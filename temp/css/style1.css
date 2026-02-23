@@ -5,6 +5,25 @@ body{
     font-size:12px;
     overflow:auto
 }
+
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+
+#content {
+    position: relative;
+    z-index: 10;
+}
+
+
 #mainDiv{
     width:100%;
     height:100%
